@@ -1,0 +1,13 @@
+prefix=/Users/godipally.shivakumar/Desktop/CALORIES ADVISOR/venv
+exec_prefix=/Users/godipally.shivakumar/Desktop/CALORIES ADVISOR/venv
+libdir=/Users/godipally.shivakumar/Desktop/CALORIES ADVISOR/venv/lib
+sharedlibdir=/Users/godipally.shivakumar/Desktop/CALORIES ADVISOR/venv/lib
+includedir=/Users/godipally.shivakumar/Desktop/CALORIES ADVISOR/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
